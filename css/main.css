@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #FCCF97;
   height: 100%;
   width: 100%;
 }
@@ -121,23 +121,33 @@ main,
 
 header,
 footer {
-  background-color: #222;
+
   height: 80px;
   width: 100%;
+  padding: 1em 0 0;
 }
 
 main {
-  background-color: #ccc;
+  font-size: 1.25em;
   height: 250px;
   width: 100%;
 }
-
-header,
-footer,
-main {
-
+p span {
+  font-family: 'Lora', serif;
+  font-weight: bold;
 }
 
+header {
+  font-size: 3em;
+  justify-content: flex-start;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+footer ul li {
+  
+  display: inline-block;
+
+}
 .flex-container {
   flex-flow: wrap;
   justify-content: space-between;
@@ -147,9 +157,9 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
   width: 30%;
   height: 200px;
+  font-size: 1em;
 
 }
 
