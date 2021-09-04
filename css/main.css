@@ -143,11 +143,23 @@ header {
   font-family: 'Lora', serif;
   font-weight: bold;
 }
-footer ul li {
-  
+
+footer {
+  justify-content: flex-start;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
   display: inline-block;
+}
+ul li img {
+  height: auto;
+  width: 1.5em;
+
+  padding: .5em;
 
 }
+
 .flex-container {
   flex-flow: wrap;
   justify-content: space-between;
